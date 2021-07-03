@@ -14,8 +14,6 @@
 
     </a>
 
-
-
     <!-- Sidebar -->
 
     <div class="sidebar">
@@ -24,40 +22,20 @@
           <li class="nav-item has-treeview"> 
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-graduation-cap"></i> 
-              <p>
-
-                Funcionários
-
-                <i class="right fas fa-angle-left"></i>
-
-              </p>
-
+                <p>Funcionários<i class="right fas fa-angle-left"></i></p>
             </a> 
-
             <ul class="nav nav-treeview">
-
               <li class="nav-item">
-
                 <a href="#" class="nav-link">
-
                   <i class="fa fa-list"></i>
-
-                  <p>Ver alunos</p> 
-
+                  <p>Ver funcionários</p> 
                 </a>
-
-                <a href="#" class="nav-link">
-
+                <a href="../../pages/admin/novoFuncionario.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-
-                    <p>Inscrição</p>
-
+                    <p>Novo funcionário</p>
                 </a>
-
               </li>
-
             </ul>
-
           </li>
         </ul>
       </nav>
