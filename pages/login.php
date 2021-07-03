@@ -50,7 +50,7 @@
                             </form>
                             <p class="mb-1 text-center">
                                 <br>
-                                <a href="#">Criar conta</a>
+                                <a href="novaContaUser.php">Criar conta</a>
                             </p>
                         </div>
                     </div>
