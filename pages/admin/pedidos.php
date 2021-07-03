@@ -5,9 +5,142 @@
     <div class="content">
         <div class="container-fluid">
             <div class="container">
-                PEDIDOS
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">        
+                                    <div class="col">
+                                        <div class="card card-success">
+                                            <div class="card-header">Nome do pedido</div>
+                                                <div class="card-body">
+                                                    <p>Nome do usuario</p>
+                                                    <p>Apelido do usuario</p>
+                                                    <p>Email do usuario</p>
+                                                    <p>contacto do usuario</p>
+                                                    <p class="text-muted">
+                                                        descricao do pedido
+                                                        descricao do pedido
+                                                        descricao do pedido
+                                                    </p>
+                                                </div> 
+                                                <div class="card-footer text-muted text-center">
+                                                    <button class="btn btn-sm btn-success" onclick="aceitarPedido(1)">Aceitar</button>
+                                                    <button class="btn btn-sm btn-danger" onclick="negarPedido(1)">Negar</button>
+                                                </div> 
+                                            </div>    
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card card-success">
+                                            <div class="card-header">Nome do pedido</div>
+                                                <div class="card-body">
+                                                    <p>Nome do usuario</p>
+                                                    <p>Apelido do usuario</p>
+                                                    <p>Email do usuario</p>
+                                                    <p>contacto do usuario</p>
+                                                    <p class="text-muted">
+                                                        descricao do pedido
+                                                        descricao do pedido
+                                                        descricao do pedido
+                                                    </p>
+                                                </div> 
+                                                <div class="card-footer text-muted text-center">
+                                                    <button class="btn btn-sm btn-success" onclick="aceitarPedido(1)">Aceitar</button>
+                                                    <button class="btn btn-sm btn-danger" onclick="negarPedido(1)">Negar</button>
+                                                </div> 
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             </div>
         </div>
     </div>
 </div> 
 <?php include('../commons/footer.php') ?>
+
+<script>
+    function aceitarPedido(id){
+        swal({
+            title: "Tem certeza?",
+            text: "Aceitar pedido de visto",
+            type: "warning",
+            buttons: true,
+            dangerMode: true,
+            showCancelButton: true,
+            confirmButtonColor: "red",
+            confrmButtonText: "Sim, aceitar",
+            closeOnConfirm: false,
+        },
+        function(){
+
+            $.ajax({
+                url: "#",
+                type: "post",
+                data: {
+                    id : id
+                },
+
+                success: function(){
+                    swal({
+                        title : "Sucesso",
+                        text: "Pedido foi aceite",
+                        type: "success",
+                    });
+                    window.location.href = window.location.href;
+                },
+
+                error: function(){
+                    swal({
+                        title : "Falha",
+                        text : "Nao foi possivel aceitar pedido",
+                        type : "error",
+                    });
+                }
+            });
+        });
+
+    }
+
+    function negarPedido(id){
+        swal({
+            title: "Tem certeza?",
+            text: "Negar pedido de visto",
+            type: "warning",
+            buttons: true,
+            dangerMode: true,
+            showCancelButton: true,
+            confirmButtonColor: "red",
+            confrmButtonText: "Sim, negado",
+            closeOnConfirm: false,
+        },
+        function(){
+
+            $.ajax({
+                url: "#",
+                type: "post",
+                data: {
+                    id : id
+                },
+
+                success: function(){
+                    swal({
+                        title : "Sucesso",
+                        text: "Pedido foi negado",
+                        type: "success",
+                    });
+                    window.location.href = window.location.href;
+                },
+
+                error: function(){
+                    swal({
+                        title : "Falha",
+                        text : "Nao foi possivel negado pedido",
+                        type : "error",
+                    });
+                }
+            });
+        });
+
+    }
+</script>
