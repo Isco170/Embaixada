@@ -32,6 +32,20 @@
               </li>
             </ul>
           </li>
+          <li class="nav-item has-treeview"> 
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-graduation-cap"></i> 
+                <p>Vistos<i class="right fas fa-angle-left"></i></p>
+            </a> 
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../../pages/admin/pedidos.php" class="nav-link">
+                  <i class="fa fa-list"></i>
+                  <p>Ver pedidos</p> 
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
 
