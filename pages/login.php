@@ -56,9 +56,7 @@
                     </div>
                 </div>
             </div>
-        <aside class="control-sidebar control-sidebar-dark">
-    </aside>
-</div>
+        </div>
 
 
 <script src="../assets/plugins/jquery/jquery.min.js"></script>
