@@ -53,7 +53,7 @@
             </ul>
           </li>
           <li class="nav-item has-treeview">
-          <a href="../../pages/admin/adicionarVisto.php" class="nav-link">
+          <a href="../../pages/admin/pontoTuristico.php" class="nav-link">
                   <i class="fa fa-list"></i>
                   <p>Pontos turísticos</p> 
                 </a>
