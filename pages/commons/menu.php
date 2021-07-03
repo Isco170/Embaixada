@@ -39,6 +39,12 @@
             </a> 
             <ul class="nav nav-treeview">
               <li class="nav-item">
+                <a href="../../pages/admin/adicionarVisto.php" class="nav-link">
+                  <i class="fa fa-list"></i>
+                  <p>Adicionar visto</p> 
+                </a>
+              </li>
+              <li class="nav-item">
                 <a href="../../pages/admin/pedidos.php" class="nav-link">
                   <i class="fa fa-list"></i>
                   <p>Ver pedidos</p> 
