@@ -12,9 +12,32 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col">
-                                        <form action="#" method="POST">
-                                            
-                                        </form>
+                                        <div class="card card-info">
+                                            <div class="card-header">Nome do visto</div>
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li>Validade do visto</li>
+                                                    <li>taxa do visto</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-sm btn-success">Fazer pedido</button>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card card-info">
+                                            <div class="card-header">Nome do visto</div>
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li>Validade do visto</li>
+                                                    <li>taxa do visto</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-sm btn-success">Fazer pedido</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
