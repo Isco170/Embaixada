@@ -6,7 +6,7 @@
 
     <a href="#" class="brand-link">
 
-      <img src="../assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="../../../Embaixada/assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
 
            style="opacity: .8">
 
@@ -19,20 +19,14 @@
     <!-- Sidebar -->
 
     <div class="sidebar">
-
       <nav class="mt-2">
-
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-
           <li class="nav-item has-treeview"> 
-
             <a href="#" class="nav-link">
-
               <i class="nav-icon fas fa-graduation-cap"></i> 
-
               <p>
 
-                Acadêmico
+                Funcionários
 
                 <i class="right fas fa-angle-left"></i>
 
