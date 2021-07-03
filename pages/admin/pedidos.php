@@ -5,10 +5,10 @@
     <div class="content">
         <div class="container-fluid">
             <div class="container">
-                        <div class="card">
+                        <div class="card text-center">
                             <div class="card-body">
                                 <div class="row">        
-                                    <div class="col">
+                                    <div class="col-sm">
                                         <div class="card card-success">
                                             <div class="card-header">Nome do pedido</div>
                                                 <div class="card-body">
@@ -17,9 +17,9 @@
                                                     <p>Email do usuario</p>
                                                     <p>contacto do usuario</p>
                                                     <p class="text-muted">
-                                                        descricao do pedido
-                                                        descricao do pedido
-                                                        descricao do pedido
+                                                        <p>nome do visto</p>
+                                                        <p>validade do visto</p>
+                                                        <p>taxa do visto</p>
                                                     </p>
                                                 </div> 
                                                 <div class="card-footer text-muted text-center">
@@ -29,7 +29,7 @@
                                             </div>    
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm">
                                         <div class="card card-success">
                                             <div class="card-header">Nome do pedido</div>
                                                 <div class="card-body">
