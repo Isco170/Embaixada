@@ -21,7 +21,7 @@
             </a> 
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="../../pages/user/pedidosFeitos.php" class="nav-link">
                   <i class="fa fa-list"></i>
                   <p>Ver pedidos</p> 
                 </a>
