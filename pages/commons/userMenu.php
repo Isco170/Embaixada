@@ -21,11 +21,11 @@
             </a> 
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../../pages/admin/verFuncionario.php" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-list"></i>
                   <p>Ver pedidos</p> 
                 </a>
-                <a href="../../pages/admin/novoFuncionario.php" class="nav-link">
+                <a href="../../pages/user/novoPedido.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                     <p>Novo pedido</p>
                 </a>
