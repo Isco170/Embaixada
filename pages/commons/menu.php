@@ -33,10 +33,24 @@
             </ul>
           </li>
           <li class="nav-item has-treeview"> 
-            <a href="../../pages/admin/adicionarVisto.php" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-graduation-cap"></i> 
                 <p>Vistos<i class="right fas fa-angle-left"></i></p>
-            </a> 
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../../pages/admin/adicionarVisto.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Listar vistos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../pages/admin/pedidosVistos.php" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Pedidos de visto</p>
+                </a>
+              </li>
+            </ul>
           </li>
           <li class="nav-item has-treeview">
           <a href="../../pages/admin/pontoTuristico.php" class="nav-link">
